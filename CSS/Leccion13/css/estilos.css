@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor-flex{
+    display: flex;
+    background-color: #560bad;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;
+    flex-wrap: wrap ;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 300px;
+    align-items: stretch;
+    
+}
+div.contenedor-flex > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/Leccion05/img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    /* ----EN ESTA LINEA SE PUEDE SIMPLIFICAR LO DE LAS LINEAS DE ANTES
+    background: dodgerblue url("/Leccion05/img/fondo.png") no-repeat right top;
+    */
+}
+
+h1 {
+    text-align: center;
+    background-color: dodgerblue; 
+    /*height: 1000px; */
+}

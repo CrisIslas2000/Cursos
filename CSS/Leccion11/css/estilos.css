@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.contenedor-combinado{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #477b9d;
+}
+div.contenedor-combinado.descendiente p{
+    background-color: #fdffb6;
+}
+div.contenedor-combinado.hijo > p{
+    background-color: #ffc6ff;
+}
+div.contenedor-combinado.adyacente + p{
+    background-color: #caffbf;
+}
+div.contenedor-combinado.hermano ~ p{
+    background-color: #9bf6ff;
+}
+div.contenedor-clases{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #477b9d;
+}
+div.contenedor-clases:hover{
+    background-color: #457b9d;
+    color: #f1faee;
+}
+div.contenedor-clases.oculto p{
+    display: none;
+}
+div.contenedor-clases.oculto:hover p{
+    display: block;
+    background-color: #a8dadc;
+    color: #023e8a;
+    padding: 15px;
+}
+div.contenedor-clases.primero p:first-child{
+    font-variant: small-caps;
+}
+div.contenedor-elementos{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #477b9d;
+    text-align: center;
+}
+div.contenedor-elementos p::selection{
+    color: red;
+    background-color: yellow;
+}
+div.contenedor-elementos p::first-line{
+    font-variant: small-caps;
+    color: red;
+}
+div.contenedor-elementos p::first-letter{
+    font-size: 1.5em;
+}div.contenedor-elementos P::before{
+    content: "- ";
+}
+div.contenedor-elementos p::after{
+    content: " -";
+}
+div.contenedor-transparencia{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #477b9d;
+    text-align: center;
+}
+img.imagen{
+    opacity: 0.5;
+}
+img.imagen:hover{
+     opacity: 1; 
+}

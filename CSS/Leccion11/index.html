@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Combinados en CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Selectores Combinados en CSS</h1>
+    <div class="contenedor-combinado descendiente">
+        Selectores descendientes (en cualquier nivel interno): 
+        <p>Primer renglón</p>
+        <p>Segundo renglón</p>
+        <section>
+            <p>Tercer renglón</p>
+        </section>
+    </div>
+
+    <div class="contenedor-combinado hijo">
+        Selectores hijo (child): 
+        <p>Primer renglón</p>
+        <p>Segundo renglón</p>
+        <section>
+            <p>Tercer renglón</p>
+        </section>
+        <div>
+            <p>Cuarto renglón</p>
+        </div>
+        <p>Quinto renglón</p>
+    </div>
+
+    <div class="contenedor-combinado adyacente">
+        Seletor adyacente:
+        <p>Primer en renglón</p>
+    </div>
+    <p>Segundo renglón</p>
+    <p>Tercer renglón</p>
+    <div class="contenedor-combinado hermano">
+        Seletor adyacente:
+        <p>Primer en renglón</p>
+    </div>
+    <p>Segundo renglón</p>
+    <p>Tercer renglón</p>
+
+    <h1>Pseudo Clases en CSS</h1>
+    <div class="contenedor-clases oculto primero">
+        Pasa por encima
+        <p>Se muestra el párrafo</p>
+    </div>
+    <div class="contenedor-clases primero">
+        <p>Primer párrafo</p>        
+        <p>Segundo párrafo</p>
+    </div>
+
+    <h1>Pseudo Clases en CSS</h1>
+    <div class="contenedor-elementos">
+        <p>Seleccione el texto</p>
+        <p>Segundo párrafo Segundo párrafo Segundo párrafo Segundo párrafo Segundo párrafo
+            Segundo párrafo Segundo párrafo Segundo párrafo Segundo párrafo Segundo párrafo
+            
+        </p>
+    </div>
+
+    <h1>Transparencia en CSS</h1>
+    <div class="contenedor-transparencia">
+        <p>Pasa encima de la imagen</p> 
+        <img class="imagen" src="http://globalmentoring.com.mx/imagenes/html5.png"
+        alt="Logo HTML5">   
+    </div>
+    
+     
+
+</body>
+</html>
